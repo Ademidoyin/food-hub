@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>food hub</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">COURSES</h1>
+      <ul class="nav-link">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Chefs</li>
+        <li><a href="#"></a>Bakers</li>
+        <li class="ctn"><a href="#"></a>Location</li>
+      </ul>
+      <img src="images/istockphoto-1276164957-612x612.jpg" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Feed your curiosity</h2>
+        <div class="line"></div>
+        <h1>THE SAVOR YOU CANNOT RESIST</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <section>
+      <div class="title">
+        <h1>Menu</h1>
+        <div class="line"></div>
+        <div class="row">
+          <div class="col">
+            <img src="images/istockphoto-1045197700-612x612.jpg" />
+            <h4>Dessert</h4>
+            <p>After the main dish, this is served to the taste of guests.</p>
+            <a href="#" class="event ctn">Learn More</a>
+          </div>
+          <div class="col">
+            <img src="images/istockphoto-504329252-612x612.jpg" />
+            <h4>Dessert</h4>
+            <p>After the main dish, this is served to the taste of guests.</p>
+            <a href="#" class="event ctn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order">
+      <div class="order-box">
+        <h1>XPLORE DIFFERENT CULTURES</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel
+          iaculis quam. Ut ac libero tincidunt elit fermentum sodales. Integer
+          consectetur accumsan mauris a dictum. Orci varius natoque penatibus et
+          magnis dis parturient montes, nascetur ridiculus mus. Suspendisse
+          vitae nibh maximus turpis eleifend
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="dish">
+      <div class="row">
+        <div class="col content-col">
+          <h1>WALK THROUGH OUR MENU</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel
+            iaculis quam. Ut ac libero tincidunt elit fermentum sodales. Integer
+            consectetur accumsan mauris a dictum. Orci varius natoque penatibus
+            et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse
+            vitae nibh maximus turpis eleifend
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col-image">
+          <div class="image-gallery">
+            <img src="images/leslie-jones-F8JRShn7XUQ-unsplash.jpg" />
+            <img src="images/spencer-davis-smglrr0ap7s-unsplash.jpg" />
+            <img src="images/david-todd-mccarty-Ih9HDG29afU-unsplash.jpg" />
+            <img src="images/khloe-arledge-xGNi3-Hn66w-unsplash.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        &copy;foodHub Diner and Desserts | Lagos, Nigeria<br />
+        ...for all your grub fetish and desires
+      </p>
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-link");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
